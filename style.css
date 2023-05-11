@@ -65,7 +65,7 @@ align-items: center;
   
   .heading-container {
     color: white;
-    background-color: rgb(75, 45, 77);
+    background-color: rgba(75, 45, 77, 0.839);
     letter-spacing: 5px;
  
   }
@@ -81,12 +81,13 @@ align-items: center;
   
   .cont1 {
     line-height: 80px;
-    margin: 591px auto;
+    margin: 32rem auto;
+   
     padding: 20px;
     font-size: 50px;
     width: 500px;
     outline-offset: 18px;
-    outline: 15px inset #a913c7;
+    outline: 15px inset #a913c797;
     border-radius: 100px 0 100px 0;
  
   }
