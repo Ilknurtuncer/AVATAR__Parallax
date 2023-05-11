@@ -8,6 +8,7 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     text-align: center;
+    
   }
   
   .background-container--image1,
@@ -39,29 +40,34 @@
   }
   
   .section {
-    height: 30vh;
-    line-height: 30px;
-    padding: 10px 80px 64px 80px;
+    height: 40vh;
+    line-height: 3.5vh;
+ padding-top: 40px;
+display: flex;
+align-items: center;
+   
   }
   
   .section h2 {
-    margin: 60px 0px 15px 0px;
+    margin: auto;
   }
   .section--light {
-    background-color:#073268;
+    background-color: #15283f;
     /* opacity: 0.7; */
     color: azure;
   }
   
   .section--dark {
-    background-color: #073268;
+    background-color: #15283f;
     color: #ddd;
+   
   }
   
   .heading-container {
     color: white;
     background-color: rgb(75, 45, 77);
-    letter-spacing: 8px;
+    letter-spacing: 5px;
+ 
   }
   .heading-container--img {
     margin-top: 470px;
@@ -82,4 +88,5 @@
     outline-offset: 18px;
     outline: 15px inset #a913c7;
     border-radius: 100px 0 100px 0;
+ 
   }
